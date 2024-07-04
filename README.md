@@ -19,3 +19,5 @@ CSS3 (incluindo CSS Grid e Media Queries)
 JavaScript (ES6)
 Bibliotecas Externas
 Font Awesome 5.15.4 para ícones.
+### vercel link
+https://alura-criptografia-site-ghpa.vercel.app
