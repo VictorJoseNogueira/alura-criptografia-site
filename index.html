@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador</title>
+</head>
+<body>
+
+    <main class="content-conteiner">
+        <div class="conteiner-text-fild">
+<div class="conteiner-input-text">    
+    <textarea placeholder="Digite Seu Texto Aqui" name="" id="text-criptografar"></textarea>
+    <p class="warning-text"><i class="fas fa-exclamation-circle"></i> Apenas letras minúsculas e sem acento.</p>
+    <div class="btn-conteiner">
+        <button onclick="criptografia()" id="" class="btn-criptografar btn-conteiner__btn">Criptografar</button>
+        <button onclick="descriptografia()" id="btn-descriptografar" class="btn-conteiner__btn">Descriptografar</button>
+    </div>
+</div>
+
+        </div>
+        <div id="conteiner-encripted-fild-id" class="conteiner-encripted-fild">
+            
+            <textarea name="" id="text-criptografar-id" class="textarea-encripted hide-class"></textarea>
+            <button onclick="copy()" class="btn-conteiner__btn hide-class" id="copytext">Copiar texto</button>
+
+            <img id="remove-imagem" class="img-conteiner-encripted" src="a0119243-6117-443e-adc1-4c7f6b9f9182.jpg" alt="">
+            <h2 id="h2-remove">Nenhuma mensagem encontrada</h2>
+            <p id="p-remove">Digite um texto que você deseja Criptografar ou Descriptografar</p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

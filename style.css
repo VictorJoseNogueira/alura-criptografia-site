@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#text-criptografar {
+    width: 100%;
+    height: 100%;
+    resize: none; /* Evitar que o textarea seja redimensionado */
+    border-radius: 2rem;
+    padding: 2rem;
+    box-sizing: border-box;
+    border: none;
+
+}
+
+.content-conteiner {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    padding: 2%;
+    gap: 2%;
+}
+
+.conteiner-text-fild {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteiner-input-text {
+    width: 90%; /* Ajuste para ocupar 100% da largura do pai */
+    height: 70%;
+    margin: 5%;
+}
+
+.btn-conteiner{
+    display: flex;
+    margin: 0 25%;
+    gap: 5%;
+}
+.btn-conteiner__btn {
+    border-radius: 2rem;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    width: fit-content;
+    text-align: center;
+    text-decoration: none;
+    transition: 300ms ease-in-out;
+    border: 1px solid black;
+    margin: 0.5rem auto; /* Ajuste a margem conforme necessário */
+    min-width: 8rem; /* Define uma largura mínima para os botões */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.btn-conteiner__btn:hover {
+    background-color: #6777E0;
+}
+
+.conteiner-encripted-fild {
+    width: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+}
+
+.img-conteiner-encripted {
+    max-width: 90%;
+}
+
+.warning-text {
+    font-size: 0.75rem;
+}
+
+.btn-criptografar {
+    background-color: #0A3871;
+}
+
+.textarea-encripted{
+    width: 100%;
+    height: 80%;
+    resize: none; /* Evitar que o textarea seja redimensionado */
+    border-radius: 2rem;
+    padding: 2rem;
+    box-sizing: border-box;
+    border: none;
+    
+
+
+}
+.hide-class{
+    display: none;
+}
+
+
+@media (max-width: 600px) {
+    .content-conteiner {
+        flex-direction: column;
+        align-items: center;
+    }
+    .conteiner-text-fild {
+        width: 90%;
+        height: 80%;
+    }
+    .conteiner-encripted-fild {
+        width: 90%;
+        height: 20%;
+    }
+    .btn-conteiner__btn {
+        width: 50%;
+        margin-top: 2%;
+    }
+    .img-conteiner-encripted {
+        display: none;
+    }
+    .conteiner-encripted-fild {
+        margin: auto;
+    }
+
+}
+
+
+
+@media (max-width: 400px) {
+    .btn-conteiner{
+        flex-direction: column;
+    }
+    
+}
